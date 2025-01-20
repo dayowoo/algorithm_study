@@ -26,8 +26,8 @@ int main() {
 	// initialize
 	for(int i=0; i<n; i++) {
 		cin >> s;
-		mp[s] = i +1;
-		mp2[i+1] = s;
+		mp[s] = i +1;   // mp.insert({s, i});
+		mp2[i+1] = s;   // mp2.insert({i, s});
 		a[i+1] = s;
 	}
 	
